@@ -1,0 +1,361 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* header */
+.page_header_name_of_web {
+    display: flex;
+    justify-content: space-between;
+}
+.floating_element {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(305, 84%, 75%);
+}
+.logo_wara {
+    width: 50px;
+}
+div.right {
+    display: flex;
+    line-height: normal;
+}
+
+div form {
+    align-items: center;
+    display: flex;
+    border: 1px solid black ;
+}
+.search form button img {
+    width: 20px;
+}
+
+.search form input {
+    border: none;
+
+}
+nav.menuweb
+{
+    background-color: rgba(128, 128, 128, 0.262);
+    height: 20px;
+}
+.menu-layer2 .menulist a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+}
+.menu-layer2 .menulist li:hover a {
+    background-color: rgba(121, 125, 126, 0.694);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+/* article */
+article {
+    flex: 2;
+    overflow-y:auto ;
+}
+.heading_level2 {
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(9, 208, 243);
+}
+.inside_article {
+    border: 1px solid black;
+}
+
+.hearder_main_article h4 {
+    justify-content: center;
+    display: flex;
+}
+/* CSS LAYER */
+.photolayerfood {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.photolayerfood img.layer1 {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+div.photolayerfood .layer2 {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 0px;
+    background-color: black;
+    opacity: 0;
+    transition: 0.4s;
+    position: absolute;
+    top: 0; left: 56;
+    margin: 20px;
+}
+
+div.photolayerfood:hover .layer2 {
+    opacity: 0.4;
+}
+div.photolayerfood .layer3 {
+    color: white;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(0);
+    margin: 20px;
+}
+div.photolayerfood:hover .layer3 {
+    opacity: 1;
+    transform: scale(1);
+}
+.photolayerfood_ img {
+    width: 400px;
+    height: 400px;
+}
+.photolayerfood_ {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+div.photolayerfood_ .layer3 {
+    color: white;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(0);
+    margin: 20px;
+}
+div.photolayerfood_:hover .layer3 {
+    opacity: 1;
+    transform: scale(1);
+}
+/* layerv main article */
+.main_article {
+    display: flex;
+}
+
+.main_article .food_left {
+    flex: 1;
+    margin: 10px;
+}
+.main_article .food_right {
+    flex: 1;
+    margin: 10px;
+}
+.footer_artcile {
+    display: flex;
+    border: 1px solid black;
+}
+aside  {
+    flex: 1;
+    overflow-y:auto ;
+}
+
+/* footer */
+.footer_float {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.262);
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.social {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 40px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.aboutus {
+    align-items: center;
+}
+.aboutus ul {
+    display: flex;
+}
+.aboutus ul li{
+    list-style: none;
+    margin-right: 10px;
+    font-family: cursive;
+}
+.aboutus ul li:hover a{
+    background-color: rgba(121, 125, 126, 0.694);
+}
+
+
+.holberton a {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+/* breakfast page */
+
+.breakfast {
+    display: flex;
+    flex-wrap: wrap;
+}
+.background-breakfast {
+    width:calc(50% - 20px );
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.background-breakfast img {
+    width: 100%;
+    height: 250px;
+
+    transition: 0.4s;
+}
+.background-breakfast:hover img  {
+    width: 250px;
+
+
+}
+
+.fa-heart {
+    font-size: 25px;
+    color: red;
+}
+.background-breakfast p {
+    background-color: rgba(245, 245, 245, 0.536);
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+/* salad */
+.salad {
+    margin-left: 20px;
+    display: flex;
+    overflow:scroll;
+}
+.border-salad{
+    border: 1pw solid gray;
+    margin-left: 40px;
+}
+.salad img {
+    width:auto;
+}
+.photolayerfood_ p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width:576px) {
+
+    /* header */
+  
+    .floating_element { 
+        font-size: 20px;
+    }
+    /* article */  
+    .hearder_main_article h4 {
+        justify-content: center;
+    } 
+    .main_article {
+        display: none;
+    }
+
+    .photolayerfood {
+        visibility: hidden;
+    }
+    .photolayerfood img.layer1 {
+        visibility: hidden;
+    }
+    div.photolayerfood .layer2 {
+        visibility: hidden;
+    }
+    
+    div.photolayerfood:hover .layer2 {
+        visibility: hidden;
+    }
+    div.photolayerfood .layer3 {
+        visibility: hidden;
+    }
+    div.photolayerfood:hover .layer3 {
+        visibility: hidden;
+    }
+    .photolayerfood_ img {
+        visibility: hidden;
+    }
+    .photolayerfood_ {
+        visibility: hidden;
+    }
+    div.photolayerfood_ .layer3 {
+        visibility: hidden;
+    }
+    div.photolayerfood_:hover .layer3 {
+        visibility: hidden;
+    }
+    .main_article {
+        display: none;
+    }
+    /*  */
+    
+    
+    /* footer */
+    .footer_float {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.262);
+    }
+    /* salad */
+    .salad {
+       
+        display: flex;
+        flex-wrap: wrap;
+   
+    }
+    }
